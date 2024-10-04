@@ -157,7 +157,7 @@ function install {
         echo -e "\e[1A\e[K${CHECKMARK} Downloading images (${#IMAGELISTARR[@]}/${#IMAGELISTARR[@]})"
 
         echo -e "Theme installed."
-        then exit 0
+        exit 0
     fi
 }
 
