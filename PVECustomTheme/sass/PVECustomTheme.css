@@ -91,7 +91,7 @@
     text-shadow:0 0 0 #ffffff
 }
 .x-grid-icon-custom.lock-migrate:after{
-    color:#faa61a
+    color:#ffe5a0
 }
 .x-grid-empty{
     background-color:inherit;
@@ -296,7 +296,7 @@
     color:#000000
 }
 .x-btn-icon-el.x-btn-icon-el-default-toolbar-small.fa.fa-play{
-    color:#43b581
+    color:#d4edbc
 }
 .x-btn-icon-el.x-btn-icon-el-default-toolbar-small.fa.fa-power-off{
     color:#d23d3f
@@ -428,13 +428,13 @@
     color:#000000
 }
 .x-menu-item-icon-default.x-menu-item-icon.fa.fa-fw.fa-play{
-    color:#43b581
+    color:#d4edbc
 }
 .x-menu-item-icon-default.x-menu-item-icon.fa.fa-fw.fa-stop,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-fw.fa-power-off{
     color:#d23d3f
 }
 .x-menu-item-icon-default.x-menu-item-icon.fa.fa-fw.fa-pause,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-fw.fa-download{
-    color:#faa61a
+    color:#ffe5a0
 }
 .x-menu-item-icon-default.x-menu-item-icon.fa.fa-heartbeat,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-cube,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-terminal,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-desktop,.x-menu-item-icon-default.x-menu-item-icon.fa.fa-trash-o{
     color:#000000
@@ -527,7 +527,7 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     color:#666 !important
 }
 .x-tree-icon.x-tree-icon-custom.lock-migrate:after{
-    color:#faa61a
+    color:#ffe5a0
 }
 .x-tree-icon-parent-expanded:not(.x-tree-icon-custom):before,.x-tree-icon-parent:not(.x-tree-icon-custom):before{
     color:white
@@ -542,7 +542,7 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     background:#ffffff
 }
 .x-progress-default .x-progress-bar-default{
-    background-color:#43b581
+    background-color:#d4edbc
 }
 .x-progress-text{
     color:#000000 !important
@@ -587,10 +587,10 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     display:none
 }
 .critical{
-    color:#ba2b2d
+    color:#ffe5a0
 }
 .warning{
-    color:#faa61a
+    color:#ffe5a0
 }
 .proxmox-warning-row{
     background-color:rgba(250,166,26,0.35)
@@ -753,10 +753,10 @@ div[id^="pveNotesView-"][id$="-innerCt"]{
     border-color:red
 }
 a[id^="menuitem-"][id$="-itemEl"] div[class*="fa-refresh"]:before,span[id^="proxmoxButton-"][id$="-btnEl"] span[class*="fa-undo"]:before{
-    color:#faa61a
+    color:#ffe5a0
 }
 a[id^="menuitem-"][id$="-itemEl"] div[class*="fa-trash-o"]:before{
-    color:#ba2b2d
+    color:#ffe5a0
 }
 #userinfo.x-btn{
     background-color:transparent !important;
@@ -850,7 +850,7 @@ div[id="pkgversions"]{
     background-image:url("/pve2/images/dh_cephwhite.png")
 }
 .fa-sign-out:before{
-    color:#ba2b2d
+    color:#ffe5a0
 }
 .fa-language:before{
     color:white
@@ -925,7 +925,7 @@ div[id="pkgversions"]{
     background-image:url("/pve2/images/dh_mini-bottom.png") !important
 }
 .pmx-hint{
-    color:#faa61a;
+    color:#ffe5a0;
     background-color:transparent
 }
 .pmx-md code{
