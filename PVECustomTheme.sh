@@ -196,7 +196,6 @@ parse_cli()
             uninstall)
                 uninstall
                 exit 0
-                fi
                 ;;
 	     *)
 				echo -e "${BRED}Error: Got an unexpected argument \"$_key\"${REG}\n"; 
