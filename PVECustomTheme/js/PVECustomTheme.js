@@ -4,6 +4,21 @@ const COLOR_BLURPLE = '#526DD1'
 const COLOR_YELLOW = '#ffe5a0'
 const COLOR_RED = '#ffcfc9'
 
+const swapTitle = function() {
+	const titleElements = document.getElementsByTagName('title');
+	titleElements[0].innerText = 'EliasDH - Cluster';
+};
+
+const swapIcon = function() {
+	const linkElements = document.getElementsByTagName('link');
+	for (var i = 0; i < linkElements.length; i++) {
+		var node = linkElements[i];
+		if (node.rel === 'shortcut icon') {
+			node.href = '/pve2/images/dh_logo.png';
+			break;
+		}
+	}
+};
 
 const swapLogo = async function() {
 	const imgElements = document.getElementsByTagName('img');
@@ -67,6 +82,8 @@ function patchCreateWidget() {
 	}
 }
 
+swapTitle();
+swapIcon();
 swapLogo();
 patchCharts();
 patchGaugeWidget();
