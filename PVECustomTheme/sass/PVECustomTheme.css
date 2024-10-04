@@ -8,7 +8,7 @@
 }
 .x-form-text-default{
     color:#818082;
-    background-color:#4A4D53;
+    background-color:#757d85;
     font:300 13px/17px 'helvetica', 'arial', 'verdana', sans-serif;
     min-height:22px;
     padding:0 6px 2px
@@ -65,7 +65,7 @@
     border-width:0 !important
 }
 .x-grid-item:hover,.x-grid-item.x-grid-item-selected{
-    background-color:#4A4D53
+    background-color:#757d85
 }
 .x-grid-item-alt{
     background:#4f94f0;
@@ -575,7 +575,8 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     background-color:rgba(26,26,29,0.27)
 }
 .x-surface-canvas{
-    border-radius:3px
+    border-radius:3px;
+    background: #4f94f0
 }
 .x-fieldset-default{
     border:1px solid #757d85
@@ -616,10 +617,10 @@ hr[class*="x-component"]{
     border:none
 }
 .x-boundlist-item:hover{
-    background-color:#4A4D53
+    background-color:#757d85
 }
 .x-boundlist-item.x-boundlist-selected{
-    background-color:#4A4D53
+    background-color:#757d85
 }
 .x-boundlist{
     border-color:#4f94f0
@@ -637,7 +638,7 @@ hr[class*="x-component"]{
     border:none
 }
 .x-datepicker-cell{
-    border:0.5px solid #4A4D53
+    border:0.5px solid #757d85
 }
 .x-datepicker-header{
     background-color:#4f94f0
@@ -662,7 +663,7 @@ hr[class*="x-component"]{
     border:none !important;
     color:white !important;
     opacity:1;
-    background-color:#4A4D53 !important
+    background-color:#757d85 !important
 }
 div[id^="pveDcHealth-"][id$="-body"],div[id^="pveDcGuests-"][id$="-body"],div[id^="pveDcSummary-"][id$="-innerCt"]>div:nth-child(3)>div:nth-child(2),div[id^="pveDcSummary-"][id$="-innerCt"]>div:nth-child(5)>div:nth-child(2)>div>div,div[id^="pveDcSummary-"][id$="-innerCt"]>div:nth-child(3)>div:nth-child(2)>div{
     background-color:#4f94f0
@@ -932,7 +933,7 @@ div[id="pkgversions"]{
     background-color:#ffffff
 }
 .pmx-md pre code{
-    border-left:3px solid #4A4D53
+    border-left:3px solid #757d85
 }
 .pmx-md tbody tr:nth-of-type(even){
     background-color:#212427
@@ -965,7 +966,7 @@ html{
 ::-webkit-scrollbar{
     width:0;
     height:6px;
-    background:#4A4D53
+    background:#757d85
 }
 ::-webkit-scrollbar:hover{
     background:#4f94f0
