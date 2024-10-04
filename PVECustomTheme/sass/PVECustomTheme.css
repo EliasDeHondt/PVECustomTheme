@@ -8,7 +8,6 @@
     background: none;
     color: none;
 }
-
 .x-body{
     color:#000000;
     font-size:13px;
@@ -18,7 +17,7 @@
     background:#000000
 }
 .x-form-text-default{
-    color:#818082;
+    color:#ffffff;
     background-color:#757d85;
     font:300 13px/17px 'helvetica', 'arial', 'verdana', sans-serif;
     min-height:22px;
@@ -587,6 +586,10 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 }
 .x-surface-canvas{
     border-radius:3px;
+    background: #ffffff
+}
+.x-surface{
+    color: #000000;
     background: #ffffff
 }
 .x-fieldset-default{
