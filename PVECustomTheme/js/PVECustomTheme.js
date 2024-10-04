@@ -1,8 +1,8 @@
-const COLOR_DARK = '#2C2F33'
-const COLOR_DARKER = '#23272a'
+const COLOR_DARK = '#757d85'
+const COLOR_DARKER = '#4A4D53'
 const COLOR_BLURPLE = '#526DD1'
-const COLOR_YELLOW = '#faa61a'
-const COLOR_RED = '#ba2b2d'
+const COLOR_YELLOW = '#ffe5a0'
+const COLOR_RED = '#ffcfc9'
 
 
 const swapLogo = async function() {
