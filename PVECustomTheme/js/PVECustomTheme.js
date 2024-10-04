@@ -13,8 +13,8 @@ const swapIcon = function() {
 	const linkElements = document.getElementsByTagName('link');
 	for (var i = 0; i < linkElements.length; i++) {
 		var node = linkElements[i];
-		if (node.rel === 'shortcut icon') {
-			node.href = '/pve2/images/dh_logo.png';
+		if (node.rel === 'apple-touch-icon') {
+			node.href = '/pve2/images/dh_logo-eliasdh.png';
 			break;
 		}
 	}

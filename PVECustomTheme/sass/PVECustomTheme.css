@@ -586,11 +586,11 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 }
 .x-surface-canvas{
     border-radius:3px;
-    background: #ffffff
+    background: #4f94f0
 }
 .x-surface{
     color: #000000;
-    background: #ffffff
+    background: #4f94f0
 }
 .x-fieldset-default{
     border:1px solid #757d85
@@ -626,7 +626,7 @@ hr[class*="x-component"]{
     background-image:url("/pve2/images/dh_mini-top.png")
 }
 .x-boundlist-item{
-    color:white;
+    color:#000000;
     background-color:#ffffff;
     border:none
 }
