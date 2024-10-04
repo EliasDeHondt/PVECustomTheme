@@ -18,6 +18,7 @@ const swapLogo = async function() {
 			node.setAttribute('height', `${height}px`);
 			node.setAttribute('width', `${width}px`);
 			node.setAttribute('src', '/pve2/images/dh_logo.png');
+			node.setAttribute('style', 'color: white');
 		}
 	}
 	if (!found) {

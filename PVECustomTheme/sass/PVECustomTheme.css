@@ -1,3 +1,14 @@
+/**
+ * @author Elias De Hondt
+ * @see https://eliasdh.com
+ * @since 04/10/2024
+ */
+
+#proxmoxlogo-1018-img {
+    background: none;
+    color: none;
+}
+
 .x-body{
     color:#000000;
     font-size:13px;
@@ -569,14 +580,14 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     background:#ffffff
 }
 .x-title-text{
-    color:#757d85
+    color:#000000
 }
 .x-mask{
     background-color:rgba(26,26,29,0.27)
 }
 .x-surface-canvas{
     border-radius:3px;
-    background: #4f94f0
+    background: #ffffff
 }
 .x-fieldset-default{
     border:1px solid #757d85
@@ -930,7 +941,7 @@ div[id="pkgversions"]{
     background-color:transparent
 }
 .pmx-md code{
-    background-color:#f0f0f0
+    background-color:#ffffff
 }
 .pmx-md pre code{
     border-left:3px solid #757d85
