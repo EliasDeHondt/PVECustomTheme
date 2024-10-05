@@ -115,9 +115,9 @@ function install {
         echo -e "${CHECKMARK} Downloading stylesheet"
 
         if [ "$OFFLINE" = false ]; then
-            curl -s $BASE_URL/PVECustomTheme/sass/PVECustomTheme.css > /usr/share/pve-manager/css/dh_style.css
+            curl -s $BASE_URL/PVECustomTheme/css/PVECustomTheme.css > /usr/share/pve-manager/css/dh_style.css
         else
-            cp "$OFFLINEDIR/PVECustomTheme/sass/PVECustomTheme.css" /usr/share/pve-manager/css/dh_style.css
+            cp "$OFFLINEDIR/PVECustomTheme/css/PVECustomTheme.css" /usr/share/pve-manager/css/dh_style.css
         fi
 
         echo -e "${CHECKMARK} Downloading patcher"
