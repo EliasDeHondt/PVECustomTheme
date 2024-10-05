@@ -297,7 +297,7 @@
 }
 
 .x-panel-header{
-    background:#4f94f0;
+    background:#ffffff;
     border:0
 }
 
@@ -322,11 +322,11 @@
 }
 
 .x-toolbar-vertical-scroller{
-    background:#ffffff !important
+    background:#4f94f0 !important
 }
 
 .x-toolbar-default-vertical-scroller{
-    background:#ffffff !important
+    background:#4f94f0 !important
 }
 
 .x-toolbar-text.x-box-item.x-toolbar-item.x-toolbar-text-default{
