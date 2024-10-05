@@ -17,7 +17,7 @@
     background:#000000
 }
 .x-form-text-default{
-    color:#ffffff;
+    color:#000000;
     background-color:#757d85;
     font:300 13px/17px 'helvetica', 'arial', 'verdana', sans-serif;
     min-height:22px;
@@ -245,7 +245,7 @@
     border:0
 }
 .x-panel-body-default{
-    background:#ffffff;
+    background:#4f94f0;
     color:#000000;
     font-size:13px;
     font-weight:300;
@@ -586,11 +586,11 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 }
 .x-surface-canvas{
     border-radius:3px;
-    background: #4f94f0
+    background: #ffffff
 }
 .x-surface{
     color: #000000;
-    background: #4f94f0
+    background: #ffffff
 }
 .x-fieldset-default{
     border:1px solid #757d85
