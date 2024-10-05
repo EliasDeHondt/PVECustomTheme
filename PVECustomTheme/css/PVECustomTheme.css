@@ -740,7 +740,7 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 
 .x-surface-canvas{
     border-radius:3px !important;
-    background: #ffffff !important;
+    background: #4f94f0 !important;
     color: #000000 !important;
 }
 
@@ -807,7 +807,7 @@ hr[class*="x-component"]{
 
 .x-datepicker-column-header-inner{
     background-color:#ffffff;
-    color:white
+    color: #000000;
 }
 
 .x-datepicker{
@@ -816,7 +816,7 @@ hr[class*="x-component"]{
 
 .x-datepicker-date{
     background-color:#ffffff;
-    color:white;
+    color:#000000;
     border:none
 }
 
