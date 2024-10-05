@@ -738,16 +738,16 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     background-color:rgba(26,26,29,0.27)
 }
 
-.x-surface-canvas{
+/* .x-surface-canvas{
     border-radius:3px;
     background: #ffffff;
     color: #000000;
-}
+} */
 
-.x-surface{
+/* .x-surface{
     color: #000000;
     background: #ffffff
-}
+} */
 
 .x-fieldset-default{
     border:1px solid #757d85

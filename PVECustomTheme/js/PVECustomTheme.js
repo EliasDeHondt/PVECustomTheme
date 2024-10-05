@@ -1,5 +1,5 @@
 const COLOR_DARK = '#757d85'
-const COLOR_DARKER = '#4A4D53'
+const COLOR_ELIASDH = '#4f94f0'
 const COLOR_BLURPLE = '#526DD1'
 const COLOR_YELLOW = '#ffe5a0'
 const COLOR_RED = '#ffcfc9'
@@ -29,7 +29,6 @@ const swapLogo = async function() {
 			found = true;
 			var width = (node.parentElement.clientWidth == undefined || node.parentElement.clientWidth == 0) ? 172 : node.parentElement.clientWidth;
 			var height = (node.parentElement.clientHeight == undefined || node.parentElement.clientHeight == 0) ? 30 : node.parentElement.clientHeight;
-			node.parentElement.parentElement.style.background = COLOR_DARKER;
 			node.setAttribute('height', `${height}px`);
 			node.setAttribute('width', `${width}px`);
 			node.setAttribute('src', '/pve2/images/dh_logo.png');
@@ -43,7 +42,7 @@ const swapLogo = async function() {
 };
 
 const patchCharts = function() {
-	Ext.chart.theme.Base.prototype.config.chart.defaults.background = COLOR_DARKER;
+	Ext.chart.theme.Base.prototype.config.chart.defaults.background = COLOR_ELIASDH;
 	Ext.chart.theme.Base.prototype.config.axis.defaults.label.color = 'black';
 	Ext.chart.theme.Base.prototype.config.axis.defaults.title.color = 'black';
 	Ext.chart.theme.Base.prototype.config.axis.defaults.style.strokeStyle = COLOR_BLURPLE;
@@ -60,12 +59,12 @@ function patchGaugeWidget() {
 };
 
 function patchBackupConfig() {
-	PVE.window.BackupConfig.prototype.items.style['background-color'] = COLOR_DARKER;
+	PVE.window.BackupConfig.prototype.items.style['background-color'] = COLOR_ELIASDH;
 };
 
 function patchDiskSmartWindow() {
 	const target = PVE.DiskSmartWindow || Proxmox.window.DiskSmart;
-	target.prototype.items[1].style['background-color'] = COLOR_DARKER;
+	target.prototype.items[1].style['background-color'] = COLOR_ELIASDH;
 }
 
 function patchTFAEdit() {
