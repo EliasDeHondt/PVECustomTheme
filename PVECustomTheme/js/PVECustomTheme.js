@@ -49,7 +49,7 @@ const patchCharts = function() {
 	Ext.chart.theme.Base.prototype.config.chart.defaults.background = COLOR_ELIASDH;
 	Ext.chart.theme.Base.prototype.config.axis.defaults.label.color = 'black';
 	Ext.chart.theme.Base.prototype.config.axis.defaults.title.color = 'black';
-	Ext.chart.theme.Base.prototype.config.axis.defaults.style.strokeStyle = COLOR_BLURPLE;
+	Ext.chart.theme.Base.prototype.config.axis.defaults.style.strokeStyle = COLOR_BLURPLE; // This
 	Ext.chart.theme.Base.prototype.config.axis.defaults.grid.strokeStyle = 'rgba(44, 47, 51, 1)'; // COLOR_DARK
 	Ext.chart.theme.Base.prototype.config.sprites.text.color = 'black';
 };
