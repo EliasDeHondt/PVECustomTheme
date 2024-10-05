@@ -17,6 +17,10 @@ const swapIcon = function() {
 			node.href = '/pve2/images/dh_logo-eliasdh.png';
 			break;
 		}
+		if (node.rel === 'icon') {
+			node.href = '/pve2/images/dh_logo-eliasdh.png';
+			break;
+		}
 	}
 };
 
