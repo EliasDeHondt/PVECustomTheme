@@ -586,7 +586,8 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 }
 .x-surface-canvas{
     border-radius:3px;
-    background: #ffffff
+    background: #ffffff;
+    color: #000000;
 }
 .x-surface{
     color: #000000;
