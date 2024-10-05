@@ -744,7 +744,6 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
 }
 
 .x-surface{
-    background-color:#ffffff !important;
     border-radius:3px !important;
     color:#000000 !important
 }
