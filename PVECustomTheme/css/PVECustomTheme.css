@@ -743,12 +743,12 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     color: #000000 !important;
 }
 
-#proxmoxRRDChart-1152-ext-chart-axis-time-2{
+#proxmoxRRDChart-1152-ext-chart-axis-time-2.x-surface{
     background:#ffffff !important;
     color:#000000 !important;
 }
 
-#proxmoxRRDChart-1152-ext-chart-axis-numeric-2{
+#proxmoxRRDChart-1152-ext-chart-axis-numeric-2.x-surface{
     background:#ffffff !important;
     color:#000000 !important;
 }
