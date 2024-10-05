@@ -743,6 +743,12 @@ div[aria-labelledby^="ext-comp-"][aria-labelledby$="_header-title-textEl"]>div:n
     color: #000000 !important;
 }
 
+.x-surface{
+    background-color:#ffffff !important;
+    border-radius:3px !important;
+    color:#000000 !important
+}
+
 .x-fieldset-default{
     border:1px solid #757d85
 }
