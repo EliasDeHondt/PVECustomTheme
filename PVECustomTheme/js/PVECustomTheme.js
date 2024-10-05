@@ -1,3 +1,9 @@
+/**
+ * @author Elias De Hondt
+ * @see https://eliasdh.com
+ * @since 04/10/2024
+ */
+
 const COLOR_DARK = '#757d85'
 const COLOR_ELIASDH = '#4f94f0'
 const COLOR_BLURPLE = '#526DD1'
