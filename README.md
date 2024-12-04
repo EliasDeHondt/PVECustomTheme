@@ -5,7 +5,8 @@
 
 1. [📘Table of Contents](#📘table-of-contents)
 2. [🖖Introduction](#🖖introduction)
-3. [🔗Links](#🔗links)
+3. [📚Documentation](#📚documentation)
+4. [🔗Links](#🔗links)
 
 ---
 
@@ -17,6 +18,18 @@ Please also see following documents:
 - [LICENSE](LICENSE.md)
 - [SECURITY](SECURITY.md)
 - [CONTRIBUTING](CONTRIBUTING.md)
+
+## 📚Documentation
+
+> This is a collection of modifications that I have made to the Proxmox web GUI theme. I have made these modifications to make the web GUI more to my liking.
+```bash
+apt update && apt install wget curl -y
+bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh ) install
+bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh ) uninstall
+
+# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) uninstall
+# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) install
+```
 
 ## 🔗Links
 - 👯 Web hosting company [EliasDH.com](https://eliasdh.com).
