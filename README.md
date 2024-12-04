@@ -24,11 +24,11 @@ Please also see following documents:
 > This is a collection of modifications that I have made to the Proxmox web GUI theme. I have made these modifications to make the web GUI more to my liking.
 ```bash
 apt update && apt install wget curl -y
-bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh ) install
-bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh ) uninstall
+bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh) install
+bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/master/PVECustomTheme.sh) uninstall
 
-# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) uninstall
-# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) install
+# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh) uninstall
+# bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh) install
 ```
 
 ## 🔗Links
