@@ -30,7 +30,3 @@ bash <(curl -s https://raw.githubusercontent.com/EliasDH-com/PVECustomTheme/mast
 # bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh) uninstall
 # bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh) install
 ```
-
-## 🔗Links
-- 👯 Web hosting company [EliasDH.com](https://eliasdh.com).
-- 📫 How to reach us elias.dehondt@outlook.com
